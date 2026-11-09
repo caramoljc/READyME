@@ -1,0 +1,21 @@
+# Dependencies and generated output
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+
+# Local environment and deployment files
+.env
+.env.*
+**/.env
+**/.env.*
+.vercel/
+**/.vercel/
+
+# Private keys and credential files
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json

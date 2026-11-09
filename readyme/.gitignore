@@ -12,6 +12,19 @@ dist
 dist-ssr
 *.local
 
+# Local environment and deployment files
+.env
+.env.*
+.vercel/
+
+# Private keys and credential files
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -22,3 +35,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+.vercel
